@@ -1,0 +1,164 @@
+/* змінні */
+:root {
+  --primary-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --text: #434455;
+  --light-on-dark: #ffffff;
+  --accent: #e7e9fc;
+  --pressed-state: #404bbf;
+  --light: #f4f4fd;
+
+  --main-font: "Roboto", sans-serif;
+}
+
+/* ---------- */
+/* скидання маркерів та підкреслень */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: var(--text);
+}
+.link:hover,
+.link:focus {
+  color: var(--primary-brand);
+}
+.link:active {
+  color: var(--text);
+}
+/* ----------*/
+body {
+  font-family: var(--main-font);
+  letter-spacing: 0.02em;
+
+  color: var(--text);
+}
+
+/* компоненти */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+
+  color: var(--dark);
+}
+.logo-item {
+  color: var(--primary-brand);
+}
+
+.secondary-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+
+  color: var(--dark);
+}
+
+.third-title {
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--dark);
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* ---------- */
+/* -----HEADER----- */
+
+.main-nav-list-lihk {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--dark);
+}
+
+.address {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+
+  text-decoration: none;
+}
+.address:hover,
+.address:focus {
+  color: var(--primary-brand);
+}
+
+.secondary-title-portfolio {
+  font-size: 20px;
+  line-height: 1.2;
+  text-transform: capitalize;
+
+  color: var(--dark);
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  background-color: var(--primary-brand);
+  color: var(--light-on-dark);
+
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--pressed-state);
+}
+
+/* ---------- */
+/* -----HERO----- */
+.hero-bgd {
+  background-color: var(--dark);
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-transform: capitalize;
+
+  background-color: var(--dark);
+  color: var(--light-on-dark);
+}
+
+/* ------Our Team----- */
+
+.team{
+  background-color: var(--light);
+}
+/* -----Footer------ */
+.footer-bgd {
+  background-color: var(--dark);
+}
+.logo-item-footer {
+  color: var(--light);
+}
+
+.paragraph-footer {
+  color: var(--accent);
+}
+
+/* =====PORTFOLIO=====*/
+/* -----Filter----- */
+.button-filter {
+  background-color: var(--accent);
+  color: var(--primary-brand);
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--pressed-state);
+  color: var(--light-on-dark);
+}
